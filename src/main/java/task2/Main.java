@@ -1,5 +1,8 @@
 package task2;
 
+// Задан целочисленный список ArrayList. Найти минимальное, максимальное
+// и среднее арифметическое из этого списка.
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -10,7 +13,11 @@ public class Main {
         list.add(10);
         list.add(3);
         list.add(18);
-        list.add(11);
+        list.add(7);
+        list.add(12);
+        list.add(8);
+
+        System.out.println("Список: " + list);
 
         int min = Collections.min(list);
         int max = Collections.max(list);
